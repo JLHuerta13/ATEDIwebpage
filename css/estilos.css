@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 80px;
-    background-color:orchid;
+    background-color: #F50087;
     box-shadow: 0 4px 25px -22px black;
     z-index: 2;
 }
@@ -34,9 +34,14 @@
 }
 
 .logo h1{
-    color:blueviolet;
+    color:#F50087;
 }
 
+.logo h5{
+    color:#F50087;
+}
+
+/* MENU BIBLIOTECA */
 .menu {
     height: 80px;
 }
@@ -61,10 +66,10 @@
 }
 
 .menu-selected:before{
-    content: '';
+    content: ' ';
     width: 100%;
     height: 4px;
-    background: blueviolet;
+    background: #F50087;
     position: absolute;
     top: 0;
     left: 0;
@@ -77,11 +82,62 @@
 }
 
 .menu nav ul li a:hover{
-    color: blueviolet;
+    color: #F50087;
 }
 
 .menu .text-menu-selected{
-    color: blueviolet;
+    color: #F50087;
+}
+
+/* MENU PRINCIPAL */
+.menu-principal {
+    height: 80px;
+}
+
+.menu-principal nav{
+    height: 100%;
+}
+
+.menu-principal nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu-principal nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+}
+
+.menu-principal-selected:before{
+    content: ' ';
+    width: 100%;
+    height: 4px;
+    background: #F50087;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+.menu-principal nav ul li a{
+    color: #777;
+    font-size: 18px;
+    transition: color 300ms;
+    list-style: none;
+}
+
+.menu-principal nav ul li a:hover{
+    color: #F50087;
+}
+
+.menu-principal .text-menu-selected{
+    color: #F50087;
 }
 
 /* PORTADA */
@@ -124,12 +180,13 @@
 .container-info-cover h1{
     font-size: 80px;
     font-weight: 500;
-    color:darkblue;
+    color:mediumblue;
     margin-bottom: 20px;
 }
 
 .container-info-cover p{
-     color: darkblue;
-     font-size: 20px;
+     color: midnightblue;
+     font-size: 30px;
      font-weight: 300;
 }
+
