@@ -76,14 +76,15 @@
     </div>
 
     <div class="container-lista">
-        <table>
+        <table style="width: 85%; margin: auto; margin-top: 100px; border-collapse: collapse;">
             <thead>
                 <tr>
                     <th>Nombre</th>
                     <th>Categoría</th>
                     <th>Descripción</th>
                     <th>Tipo</th>
-                    <th>Descarga</th>
+                    <th>Abrir archivo</th>
+                    <th>Descargar archivo</th>
                 </tr>
             </thead>
             <tbody>
@@ -99,7 +100,8 @@
                         echo "<td>" . $row["categoria"] . "</td>";
                         echo "<td>" . $row["descripcion"] . "</td>";
                         echo "<td>" . $row["tipo"] . "</td>";
-                        echo "<td><a href='" . $row["ruta"] . "' target='_blank'>Descargar</a></td>";
+                        echo "<td><a href='" . $row["ruta"] . "' target='_blank'>Abrir</a></td>"; 
+                        echo "<td><a href='" . $row["ruta"] . "' download>Descargar</a></td>";
                         echo "</tr>";
                     }
                 } else {

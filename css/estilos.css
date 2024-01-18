@@ -188,6 +188,16 @@
      font-weight: 300;
 }
 
+.container-lista {
+    margin-top: 20px;
+    max-width: 80%; /* Puedes ajustar esto según sea necesario */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+    
+
 /* PIE DE PÄGINA */
 
 .footer {
@@ -201,9 +211,8 @@
     flex-wrap: wrap;
 }
 
-.container-lista {
-    margin-top: 20px; /* Puedes ajustar esto según sea necesario */
-    position: relative;
-    z-index: 1; /* Asegura que la lista esté en un nivel superior que la portada */
-}
+
+
+
+
 
