@@ -35,11 +35,9 @@
 
 .logo h1{
     color:#F50087;
+    font-size: 18px;
 }
 
-.logo h5{
-    color:#F50087;
-}
 
 /* MENU BIBLIOTECA */
 .menu {
@@ -111,7 +109,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    list-style: none;
 }
 
 .menu-principal-selected:before{
@@ -122,14 +119,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    list-style: none;
 }
 
 .menu-principal nav ul li a{
     color: #777;
     font-size: 18px;
     transition: color 300ms;
-    list-style: none;
 }
 
 .menu-principal nav ul li a:hover{
@@ -151,6 +146,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-top: 80px;
+    z-index: 0;
 }
 
 .container-cover:before{
@@ -188,5 +186,24 @@
      color: midnightblue;
      font-size: 30px;
      font-weight: 300;
+}
+
+/* PIE DE PÄGINA */
+
+.footer {
+    background-color: #333; 
+    color: #fff;
+    border-top: 20px; 
+    padding: 20px; 
+    padding-top: 20px;
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-lista {
+    margin-top: 20px; /* Puedes ajustar esto según sea necesario */
+    position: relative;
+    z-index: 1; /* Asegura que la lista esté en un nivel superior que la portada */
 }
 

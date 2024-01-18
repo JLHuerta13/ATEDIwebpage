@@ -1,0 +1,25 @@
+BODY
+{
+ Scrollbar-Face-Color:#39597D;
+ Scrollbar-Highlight-Color:#FFFFFF;
+ Scrollbar-Shadow-Color:#FFFFFF;
+ Scrollbar-3Dlight-Color:#39597D;
+ Scrollbar-Arrow-Color:#FFFFFF;
+ Scrollbar-Track-Color:#39597D;
+ Scrollbar-Darkshadow-Color:#39597D;
+ Scrollbar-Base-Color:#39597D;
+ Font-family:Verdana;
+ Font-size:10pt;
+ Font-width:Normal;
+ Background-Color:#FFFFF0;
+ color:#000000;
+ Margin: 0,0,0,0;
+}
+A {Font-Family:Verdana;Font-size:8pt;Font-Weight:800;}
+TD {Font-family:Times New Roman;Font-Size:11pt}
+OL {Text-Align:Justify;Font-Size:8pt}
+SUP {Color:#FF0000}
+.Nota   {Font-family:Verdana;Font-size:8pt;Text-align:Justify;}
+.Titulo {Font-Family:Garamond;Font-Size:12pt;Font-Weight:800;Text-Align:Center;}
+.MainStyle {Font-Family:Tahoma, Arial, Helvetica, sans-serif;FONT-SIZE:8pt}
+.CH {Text-Align:Center;Font-Family:Verdana;Font-size:10pt}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
+}
+
+.custom-button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+.header-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.header-principal-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-principal {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-principal h1 {
+    color: #F50087;
+    font-size: 14px;
+    display: flex;
+    text-decoration: none;
+}
+
+/* MENU PRINCIPAL */
+.menu-principal {
+    height: 80px;
+}
+
+.menu-principal nav {
+    height: 100%;
+}
+
+.menu-principal nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-principal nav ul li {
+    height: 100%;
+    margin: 10px 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    list-style: none;
+}
+
+
+.menu-principal-selected:before {
+    content: ' ';
+    width: 100%;
+    height: 4px;
+    background: #F50087;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+.menu-principal nav ul li a {
+    color: #777;
+    font-size: 15px;
+    transition: color 300ms;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-principal nav ul li a:hover {
+    color: #F50087;
+    list-style: none;
+}
+
+.menu-principal .text-menu-selected {
+    color: #F50087;
+}
+
+/* CARRUSEL */
+.titulo-slide {
+    margin: ;
+    font-size: 14px;
+    align-content: center;
+}
+
+/* Estilos para centrar las imágenes */
+.carousel-item img {
+    margin: 0 auto;
+}
+
+/* Estilos para cambiar el color del texto, botones y barra inferior a negro */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    color: black;
+}
+
+.carousel-indicators button {
+    background-color: transparent;
+}
+
+.carousel-indicators button.active {
+    background-color: transparent;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+
+/* SECCIONES */
+.box {
+    /*  margin: arriba | derecha | abajo | izquierda */
+    margin: 10px 50px 30px 50px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.titulo {
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 31px;
+    color: #F50087;
+}
+
+.subtitulo {
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+.imagen {
+    height: 250px;
+    margin: 15px 0 0 10px;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.photos-container img {
+    height: 500px;
+}
+
+.container {
+    margin-top: 100px;
+    scroll-margin-top: 130px;
+}
+
+.footer {
+    background-color: aliceblue;
+    padding: 40px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para las columnas del footer */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para cada columna */
+.footer-column {
+    width: 45%; /* Ajusta el ancho según sea necesario */
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #F50087; /* Cambia el color al pasar el cursor por encima */
+}
