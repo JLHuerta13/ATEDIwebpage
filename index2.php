@@ -232,10 +232,78 @@
     <section class="container" id="cursos">
         <h2 class="titulo">Cursos y talleres </h2>
     </section>
-    <section class="container">
-        <div class="photos-container">
-            <img src="img/cursos_talleres_1.png" alt="" class="">
-            <img src="img/cursos_talleres_2.png" alt="">
+    <section class="container" alt="Una tabla con todos los cursos disponibles">
+    <div class="table-responsive">
+        <table class="table table-striped" >
+            <thead alt ="Encabezados">
+                <tr>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">HORARIO POSIBLE</th>
+                <th scope="col">TOTAL HORAS</th>
+                <th scope="col">PERIODO</th>
+                <th scope="col">DIRIGIDO A</th>
+                <th scope="col">OBJETIVO</th>
+                </tr>
+            </thead>
+            <tbody alt ="Contenido de la tabla">
+                <tr alt ="Fila 1">
+                <td>BRAILLE</td>
+
+                <td>08 A 10 HORAS</td>
+                <td>25</td>
+                <td>ENERO-JULIO</td>
+                <td>DOCENTES</td>
+                <td>Proporcionar una herramienta a los docentes, para sepan como pueden apoyar a los estudiantes durante sus clases</td>
+                </tr>
+                <tr alt ="Fila 2">              
+                <td>HACIA UNA TUTORÍA INCLUSIVA</td>
+
+                <td>11 A 12 HORAS</td>
+                <td>25</td>
+                <td>MAYO - JUNIO</td>
+                <td>DOCENTES, AUTORIDADES ACADÉMICAS</td>
+                <td>Sensibilizar en torno a los requerimientos de los estudiantes que tienen alguna discapacidad; brindar información de lo que hace ATEDI y como la Coordinación puede ayudarles en su labor académica</td>
+                </tr>
+                <tr alt ="Fila 3">
+                <td>LENGUA DE SEÑAS MEXICANA</td>
+
+                <td>16 A 18 HORAS</td>
+                <td>25</td>
+                <td>ENERO-JULIO</td>
+                <td>COMUNIDAD UNIVERSITARIA</td>
+                <td>A integrantes de la comunidad universitaria interesados en aprender otra lengua de comunicación, que les permita el contaco con compañeros y miembros de la comunidad sorda.</td>
+                </tr>
+                <tr alt ="Fila 4">
+                <td>CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.</td>
+
+                <td>13 A 16 HORAS</td>
+                <td>25</td>
+                <td>ENERO-JULIO</td>
+                <td>COMUNIDAD CIEGA</td>
+                <td>Indentificar y apoyar a los aspirantes a presentar su examen EXCOBA para nievel bachillerato o licenciatura.</td>
+                </tr>
+
+                <tr alt ="Fila 5">              
+                <td>ORIENTACIÓN Y MOVILIDAD</td>
+
+                <td>10 A 14 HORAS</td>
+                <td>4</td>
+                <td>1 DÍA</td>
+                <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE ARQUITECTURA.</td>
+                <td>Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad motriz</td>
+                </tr>
+                <tr alt ="Fila 6">
+                <td>ORIENTACIÓN Y MOVILIDAD</td>
+
+                <td>10 A 14 HORAS</td>
+                <td>4</td>
+                <td>1 DÍA</td>
+                <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE INGENIERÍA CIVIL.</td>
+                <td>Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad motriz para el diseño de ciudades amigables.</td>
+                </tr>
+                <tr>
+            </tbody>
+        </table>
         </div>
     </section>
     <br><br><br><br><br>
@@ -256,6 +324,12 @@
             <img src="img/10_jess_logo_atedi_GRIS.png" alt="">
         </div>
     </section>
+    <section class="container" id="volver_a_inicio">
+        <div class="logo-principal">
+                <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
+                <a href=""><h1>Volver al inicio</h1></a> 
+            </div>
+    </section>
     <footer class="footer">
         <div class="footer-columns">
             <div class="footer-column">
@@ -267,10 +341,11 @@
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
                 <ul class="social-links">
-                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="#">Facebook</a></li>
-                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="#">Tik-Tok</a></li>
-                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="#">Instagram</a></li>
-                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="#">Youtube</a></li>
+                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
+                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
+                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
+                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="https://www.youtube.com/@atediuaq">Youtube</a></li>
+                    <li><img src="img/icons8-spotify-30.png" alt=""><a href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
                 </ul>
             </div>
         </div>
