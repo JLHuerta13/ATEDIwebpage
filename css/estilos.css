@@ -23,7 +23,7 @@ th, td {
 
 th {
     background-color: #ff2fba;
-    text-decoration: white;
+    color: white;
 }
 
 tr:nth-child(even) {
@@ -262,14 +262,22 @@ tr:nth-child(even) {
     display: flex;
 }
 
+.container-buscador select {
+    width: 15%;
+}
+
 .container-buscador input[type="text"] {
     width: 70%; /* Ajusta el ancho del campo de entrada según sea necesario */
     height: 35px;
 }
 
 .container-buscador input[type="submit"] {
-    width: 100px; /* Ajusta el ancho del campo de entrada según sea necesario */
+    width: 120px; /* Ajusta el ancho del campo de entrada según sea necesario */
     height: 35px;
+}
+
+.container-buscador input[type="submit"]:hover {
+    background-color: #f499cb;
 }
 
 .container-lista {

@@ -127,19 +127,38 @@
     <div class="container-buscador">
     <form action="" method="GET">
         <input type="text" name="buscar" placeholder="Buscar por nombre...">
+        <select name="filtro">
+            <option value="nombre">Todos</option>
+            <option value="nombre">Nombre</option>
+            <option value="categoria">Categoría</option>
+            <option value="descripcion">Descripción</option>
+            <option value="tipo">Tipo</option>
+        </select>
         <input type="submit" value="Buscar">
     </form>
     </div>
 
     <?php
-    // Consulta SQL para obtener información del material con búsqueda
+    // Consulta SQL para obtener información del material con búsqueda y filtro
     if (isset($_GET['buscar'])) {
-        $buscar = $conn->real_escape_string($_GET['buscar']);
-        $sql = "SELECT * FROM info_material WHERE nombre LIKE '%$buscar%'";
-    } else {
-        $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
-    }
+    $buscar = $conn->real_escape_string($_GET['buscar']);
     
+    // Verificar si se ha seleccionado un filtro
+    if (isset($_GET['filtro']) && $_GET['filtro'] !== 'nombre') {
+        $filtro = $conn->real_escape_string($_GET['filtro']);
+        $sql = "SELECT * FROM info_material WHERE $filtro LIKE '%$buscar%'";
+    } else {
+        // Si no se selecciona un filtro específico, buscar en todas las columnas
+        $sql = "SELECT * FROM info_material WHERE nombre LIKE '%$buscar%' OR 
+                                                categoria LIKE '%$buscar%' OR 
+                                                descripcion LIKE '%$buscar%' OR 
+                                                tipo LIKE '%$buscar%'";
+    }
+    } else {
+    // Consulta sin búsqueda, aplicar paginación
+    $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
+    }
+
     $result = $conn->query($sql);
     ?>
 
