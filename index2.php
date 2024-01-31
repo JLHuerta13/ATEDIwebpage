@@ -233,7 +233,11 @@
         <h2 class="titulo">Cursos y talleres </h2>
     </section>
     <section class="container" alt="Una tabla con todos los cursos disponibles">
+<<<<<<< HEAD
         <div class="table-responsive">
+=======
+    <div class="table-responsive">
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
         <table class="table table-striped" >
             <thead alt ="Encabezados">
                 <tr>
@@ -249,7 +253,11 @@
                 <tr alt ="Fila 1">
                 <td>BRAILLE</td>
 
+<<<<<<< HEAD
                 <td>08 A 10 HRS</td>
+=======
+                <td>08 A 10 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>DOCENTES</td>
@@ -258,7 +266,11 @@
                 <tr alt ="Fila 2">              
                 <td>HACIA UNA TUTORÍA INCLUSIVA</td>
 
+<<<<<<< HEAD
                 <td>11 A 12 HRS</td>
+=======
+                <td>11 A 12 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>25</td>
                 <td>MAYO - JUNIO</td>
                 <td>DOCENTES, AUTORIDADES ACADÉMICAS</td>
@@ -267,7 +279,11 @@
                 <tr alt ="Fila 3">
                 <td>LENGUA DE SEÑAS MEXICANA</td>
 
+<<<<<<< HEAD
                 <td>16 A 18 HRS</td>
+=======
+                <td>16 A 18 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>COMUNIDAD UNIVERSITARIA</td>
@@ -276,7 +292,11 @@
                 <tr alt ="Fila 4">
                 <td>CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.</td>
 
+<<<<<<< HEAD
                 <td>13 A 16 HRS</td>
+=======
+                <td>13 A 16 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>COMUNIDAD CIEGA</td>
@@ -286,7 +306,11 @@
                 <tr alt ="Fila 5">              
                 <td>ORIENTACIÓN Y MOVILIDAD</td>
 
+<<<<<<< HEAD
                 <td>10 A 14 HRS</td>
+=======
+                <td>10 A 14 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>4</td>
                 <td>1 DÍA</td>
                 <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE ARQUITECTURA.</td>
@@ -295,7 +319,11 @@
                 <tr alt ="Fila 6">
                 <td>ORIENTACIÓN Y MOVILIDAD</td>
 
+<<<<<<< HEAD
                 <td>10 A 14 HRS</td>
+=======
+                <td>10 A 14 HORAS</td>
+>>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
                 <td>4</td>
                 <td>1 DÍA</td>
                 <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE INGENIERÍA CIVIL.</td>
@@ -323,6 +351,12 @@
             <img src="img/10_jess_logo_atedi_GRIS.png" alt="">
         </div>
     </section>
+    <section class="container" id="volver_a_inicio">
+        <div class="logo-principal">
+                <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
+                <a href=""><h1>Volver al inicio</h1></a> 
+            </div>
+    </section>
     <footer class="footer">
         <div class="footer-columns">
             <div class="footer-column">
@@ -334,10 +368,11 @@
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
                 <ul class="social-links">
-                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="#">Facebook</a></li>
-                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="#">Tik-Tok</a></li>
-                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="#">Instagram</a></li>
-                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="#">Youtube</a></li>
+                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
+                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
+                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
+                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="https://www.youtube.com/@atediuaq">Youtube</a></li>
+                    <li><img src="img/icons8-spotify-30.png" alt=""><a href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
                 </ul>
             </div>
         </div>
