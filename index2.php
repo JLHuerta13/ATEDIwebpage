@@ -154,9 +154,13 @@
                 <img src="img/Sala_multi/sala3.jpg" alt="" style="width: 30%; border-radius: 8px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala6.jpeg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
+            </div>
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
                 <img src="img/Sala_multi/sala5.jpeg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala6.jpeg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala9.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
             </div>
         </div>
     </section>
@@ -183,8 +187,9 @@
     </section>
     <section class="container">
     <div class="gallery">
-            <div class="large-image">
-                <img src="img/dep_adaptado1.jpg" alt="" style="width: 55%; display: block; margin: auto; margin-bottom: 10px; border-radius: 8px;">
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 40%; border-radius: 8px;">
+                <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 40%; border-radius: 8px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Deporte_adaptado/dep_adaptado5.jpg" alt="" style="width: 15%; border-radius: 8px;">
@@ -192,10 +197,6 @@
                 <img src="img/Deporte_adaptado/dep_adaptado7.jpg" alt="" style="width: 15%; border-radius: 8px;">
                 <img src="img/Deporte_adaptado/dep_adaptado8.jpg" alt="" style="width: 15%; border-radius: 8px;">
                 <img src="img/Deporte_adaptado/dep_adaptado9.jpg" alt="" style="width: 15%; border-radius: 8px;">
-            </div>
-            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 40%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 40%; border-radius: 8px;">
             </div>
         </div>
     </section>
@@ -214,8 +215,14 @@
     <section class="container">
     <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/servicio1.jpg" alt="" style="width: 40%; border-radius: 8px;">
-                <img src="img/servicio2.jpg" alt="" style="width: 40%; border-radius: 8px;">
+                <img src="img/Servicio/servicio1.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio3.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+            </div>
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Servicio/servicio4.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio5.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio7.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
             </div>
         </div>
     </section>
@@ -404,6 +411,19 @@
         </li>
     </ul>
 </section>
+<section class="container">
+    <div class="gallery">
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Cursos/cursos1.jpeg" alt="" style="height: 20%; border-radius: 8px;">
+            </div>
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Cursos/cursos3.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Cursos/cursos2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Cursos/cursos4.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+
+            </div>
+        </div>
+    </section>
     <br><br><br><br><br>
     <section class="container" id="admision">
         <h2 class="titulo">Proceso de admisión </h2>
@@ -418,11 +438,16 @@
         </div>
     </section>
     <section class="container">
-        <div class="photos-container">
-            <img src="img/10_jess_logo_atedi_NEGRO.png" alt="" class="">
-            <img src="img/10_jess_logo_atedi_COLOR.png" alt="">
-            <img src="img/10_jess_logo_atedi_GRIS.png" alt="">
+    <div class="gallery">
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Admision/admision1.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
+            </div>
+            <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <img src="img/Admision/admision2.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
+                <img src="img/Admision/admision3.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
+            </div>
         </div>
+    </section>
     </section>
     <section class="container" id="volver_a_inicio">
         <div class="logo-principal">

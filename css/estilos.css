@@ -250,20 +250,37 @@ tr:nth-child(even) {
     font-weight: 300;
 }
 
+.box {
+    /*  margin: arriba | derecha | abajo | izquierda */
+    margin: 50px 50px 30px 50px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .container-instrucciones {
     width: 100%;
     height: 50px;
     position: relative;
-    margin-top: -30px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     margin-left: 20px;
     position: relative;
     z-index: 2;
 }
 
+.container-instrucciones h1 {
+    color: #333;
+    font-size: 22px;
+}
+
 .container-instrucciones p {
     color: #333;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .container-buscador {
@@ -272,7 +289,7 @@ tr:nth-child(even) {
     text-align: center;
     position: relative;
     top: 90px;
-    /* Ajusta la posición vertical según sea necesario */
+    margin-bottom: 30px;
     z-index: 1;
 }
 

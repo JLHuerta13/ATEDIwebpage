@@ -122,16 +122,19 @@
             <p>Audiolibros, material adaptado, entretenimiento y más... </p>
         </div>
     </div>
+    <div class="box">
+        <div class="container-instrucciones">
+            <h1>
+            Instrucciones para navegación en la tabla de contenido bibliográfico: <br><br>
+            </h1>
+            <p>
+            Para acceder al cuadro de edición para buscar archivos, pulsa la tecla E. Después de escribir tu petición, pulsa la tecla Enter. <br><br>
+            Para acceder a la tabla, pulsa la tecla T. <br><br>
+            Para desplazarte en la tabla, pulsa la tecla Control + Alt y utiliza las flechas del teclado. <br><br>
+            Para dirigirte a los enlaces para abrir o descargar un archivo, pulsa la tecla K. <br><br>
 
-    <div class="container-instrucciones">
-        <p>
-        Instrucciones para navegación en la tabla de contenido bibliográfico: <br><br>
-        Para acceder al cuadro de edición para buscar archivos, pulsa E. Después de escribir tu petición, pulsa enter. <br><br>
-        Para acceder a la tabla, pulsa T. <br><br>
-        Para desplazarte en la tabla, pulsa control + alt y utiliza las flechas del teclado. <br><br>
-        Para dirigirte a los enlaces para abrir o descargar un archivo, pulsa K. <br><br>
-
-        </p>
+            </p>
+        </div>
     </div>
 
     <!--   Buscador    -->
