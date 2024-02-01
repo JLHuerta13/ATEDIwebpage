@@ -18,7 +18,7 @@
     // Datos de conexión a la base de datos (reemplaza con tus propios datos)
     $servername = "localhost"; // Nombre del servidor
     $username = "root"; // Nombre de usuario de la base de datos
-    $password = ""; // Contraseña de la base de datos
+    $password = ""; // Contraseña de la base de datosC
     $dbname = "biblioteca_db"; // Nombre de la base de datos
 
     // Crear conexión
@@ -233,11 +233,11 @@
         <h2 class="titulo">Cursos y talleres </h2>
     </section>
     <section class="container" alt="Una tabla con todos los cursos disponibles">
-<<<<<<< HEAD
+
         <div class="table-responsive">
-=======
+
     <div class="table-responsive">
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
         <table class="table table-striped" >
             <thead alt ="Encabezados">
                 <tr>
@@ -253,11 +253,11 @@
                 <tr alt ="Fila 1">
                 <td>BRAILLE</td>
 
-<<<<<<< HEAD
+
                 <td>08 A 10 HRS</td>
-=======
+
                 <td>08 A 10 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>DOCENTES</td>
@@ -266,11 +266,11 @@
                 <tr alt ="Fila 2">              
                 <td>HACIA UNA TUTORÍA INCLUSIVA</td>
 
-<<<<<<< HEAD
+
                 <td>11 A 12 HRS</td>
-=======
+
                 <td>11 A 12 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
                 <td>25</td>
                 <td>MAYO - JUNIO</td>
                 <td>DOCENTES, AUTORIDADES ACADÉMICAS</td>
@@ -279,11 +279,11 @@
                 <tr alt ="Fila 3">
                 <td>LENGUA DE SEÑAS MEXICANA</td>
 
-<<<<<<< HEAD
+
                 <td>16 A 18 HRS</td>
-=======
+
                 <td>16 A 18 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+ 
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>COMUNIDAD UNIVERSITARIA</td>
@@ -292,11 +292,11 @@
                 <tr alt ="Fila 4">
                 <td>CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.</td>
 
-<<<<<<< HEAD
+
                 <td>13 A 16 HRS</td>
-=======
+
                 <td>13 A 16 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
                 <td>25</td>
                 <td>ENERO-JULIO</td>
                 <td>COMUNIDAD CIEGA</td>
@@ -306,11 +306,11 @@
                 <tr alt ="Fila 5">              
                 <td>ORIENTACIÓN Y MOVILIDAD</td>
 
-<<<<<<< HEAD
+
                 <td>10 A 14 HRS</td>
-=======
+
                 <td>10 A 14 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
                 <td>4</td>
                 <td>1 DÍA</td>
                 <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE ARQUITECTURA.</td>
@@ -319,11 +319,11 @@
                 <tr alt ="Fila 6">
                 <td>ORIENTACIÓN Y MOVILIDAD</td>
 
-<<<<<<< HEAD
+
                 <td>10 A 14 HRS</td>
-=======
+
                 <td>10 A 14 HORAS</td>
->>>>>>> a1b1ac66a2e6bd1257962c4f86d0f1f45f68f5f6
+
                 <td>4</td>
                 <td>1 DÍA</td>
                 <td>ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE INGENIERÍA CIVIL.</td>
