@@ -78,7 +78,7 @@
     }
 
     // Consulta SQL para obtener información del material
-    $resultados_por_pagina = 20;
+    $resultados_por_pagina = 10;
     $sql = "SELECT * FROM info_material";
     $result = $conn->query($sql);
     $total_resultados = $result->num_rows;
@@ -123,43 +123,48 @@
         </div>
     </div>
 
+    <div class="container-instrucciones">
+        <p>
+        Instrucciones para navegación en la tabla de contenido bibliográfico: <br><br>
+        Para acceder al cuadro de edición para buscar archivos, pulsa E. Después de escribir tu petición, pulsa enter. <br><br>
+        Para acceder a la tabla, pulsa T. <br><br>
+        Para desplazarte en la tabla, pulsa control + alt y utiliza las flechas del teclado. <br><br>
+        Para dirigirte a los enlaces para abrir o descargar un archivo, pulsa K. <br><br>
+
+        </p>
+    </div>
+
     <!--   Buscador    -->
     <div class="container-buscador">
-    <form action="" method="GET">
-        <input type="text" name="buscar" placeholder="Buscar por nombre...">
-        <select name="filtro">
-            <option value="nombre">Todos</option>
-            <option value="nombre">Nombre</option>
-            <option value="categoria">Categoría</option>
-            <option value="descripcion">Descripción</option>
-            <option value="tipo">Tipo</option>
-        </select>
-        <input type="submit" value="Buscar">
-    </form>
+        <form action="" method="GET">
+            <input type="text" name="buscar" placeholder="Buscar por nombre, categoría, descripción o tipo...">
+            <input type="submit" value="Buscar">
+        </form>
     </div>
 
     <?php
-    // Consulta SQL para obtener información del material con búsqueda y filtro
-    if (isset($_GET['buscar'])) {
+    // Consulta SQL para obtener información del material con búsqueda
+if (isset($_GET['buscar'])) {
     $buscar = $conn->real_escape_string($_GET['buscar']);
-    
-    // Verificar si se ha seleccionado un filtro
-    if (isset($_GET['filtro']) && $_GET['filtro'] !== 'nombre') {
-        $filtro = $conn->real_escape_string($_GET['filtro']);
-        $sql = "SELECT * FROM info_material WHERE $filtro LIKE '%$buscar%'";
-    } else {
-        // Si no se selecciona un filtro específico, buscar en todas las columnas
-        $sql = "SELECT * FROM info_material WHERE nombre LIKE '%$buscar%' OR 
-                                                categoria LIKE '%$buscar%' OR 
-                                                descripcion LIKE '%$buscar%' OR 
-                                                tipo LIKE '%$buscar%'";
-    }
-    } else {
-    // Consulta sin búsqueda, aplicar paginación
-    $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
-    }
+
+    // Buscar en todas las columnas relevantes
+    $sql = "SELECT * FROM info_material WHERE 
+            nombre LIKE '%$buscar%' OR 
+            categoria LIKE '%$buscar%' OR 
+            descripcion LIKE '%$buscar%' OR 
+            tipo LIKE '%$buscar%'";
 
     $result = $conn->query($sql);
+    $total_resultados = $result->num_rows;
+
+    // Calcular el número total de páginas
+    $total_paginas = ceil($total_resultados / $resultados_por_pagina);
+} else {
+    // Consulta sin búsqueda, aplicar paginación
+    $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
+}
+
+$result = $conn->query($sql);
     ?>
 
     <!--   Contenido de la tabla    -->
@@ -200,30 +205,12 @@
         <div class="pagination">
             <?php
             for ($i = 1; $i <= $total_paginas; $i++) {
-                echo '<a href="?pagina=' . $i . '" class="' . ($i == $pagina_actual ? 'current' : '') . '">' . $i . '</a>';
+                echo '<a href="?pagina=' . $i . '" class="' . ($i == $pagina_actual ? 'current' : '') . '">Página ' . $i . '</a>';
             }
             ?>
         </div>
 
     </div>
-
-
-    <!--
-        OPCION 2
-
-        <div class="containerList">
-        <div id="contenedorArchivos"></div>
-
-    <script src="archivos.js"></script>
-
-    <script>
-        // Llamada a la función para mostrar los archivos al cargar la página
-        window.onload = function() {
-          mostrarArchivos();
-        }
-      </script>
-    </div>
-    -->
 
     <footer class="footer">
         <div class="footer-columns">

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,8 @@ table {
     margin-top: 20px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -61,7 +62,7 @@ tr:nth-child(even) {
 }
 
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -72,7 +73,7 @@ tr:nth-child(even) {
     z-index: 2;
 }
 
-.header-content{
+.header-content {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -83,9 +84,9 @@ tr:nth-child(even) {
     background: none;
     border: none;
     padding: 0;
-  }
+}
 
-.logo{
+.logo {
     height: 80px;
     display: flex;
     justify-content: center;
@@ -94,8 +95,8 @@ tr:nth-child(even) {
     color: transparent;
 }
 
-.logo h1{
-    color:#F50087;
+.logo h1 {
+    color: #F50087;
     font-size: 18px;
 }
 
@@ -105,17 +106,17 @@ tr:nth-child(even) {
     height: 80px;
 }
 
-.menu nav{
+.menu nav {
     height: 100%;
 }
 
-.menu nav ul{
+.menu nav ul {
     height: 100%;
     display: flex;
     list-style: none;
 }
 
-.menu nav ul li{
+.menu nav ul li {
     height: 100%;
     margin: 0px 20px;
     display: flex;
@@ -124,7 +125,7 @@ tr:nth-child(even) {
     position: relative;
 }
 
-.menu-selected:before{
+.menu-selected:before {
     content: ' ';
     width: 100%;
     height: 4px;
@@ -134,17 +135,17 @@ tr:nth-child(even) {
     left: 0;
 }
 
-.menu nav ul li a{
+.menu nav ul li a {
     color: #777;
     font-size: 18px;
     transition: color 300ms;
 }
 
-.menu nav ul li a:hover{
+.menu nav ul li a:hover {
     color: #F50087;
 }
 
-.menu .text-menu-selected{
+.menu .text-menu-selected {
     color: #F50087;
 }
 
@@ -153,17 +154,17 @@ tr:nth-child(even) {
     height: 80px;
 }
 
-.menu-principal nav{
+.menu-principal nav {
     height: 100%;
 }
 
-.menu-principal nav ul{
+.menu-principal nav ul {
     height: 100%;
     display: flex;
     list-style: none;
 }
 
-.menu-principal nav ul li{
+.menu-principal nav ul li {
     height: 100%;
     margin: 0px 20px;
     display: flex;
@@ -172,7 +173,7 @@ tr:nth-child(even) {
     position: relative;
 }
 
-.menu-principal-selected:before{
+.menu-principal-selected:before {
     content: ' ';
     width: 100%;
     height: 4px;
@@ -182,27 +183,26 @@ tr:nth-child(even) {
     left: 0;
 }
 
-.menu-principal nav ul li a{
+.menu-principal nav ul li a {
     color: #777;
     font-size: 18px;
     transition: color 300ms;
 }
 
-.menu-principal nav ul li a:hover{
+.menu-principal nav ul li a:hover {
     color: #F50087;
 }
 
-.menu-principal .text-menu-selected{
+.menu-principal .text-menu-selected {
     color: #F50087;
 }
 
 /* PORTADA */
 
-.container-cover{
+.container-cover {
+    position: relative;
     width: 100%;
     height: 500px;
-    position: relative;
-    top: 80px;
     background-image: url(../img/portada_biblioteca.jpg);
     background-position: center;
     background-size: cover;
@@ -212,7 +212,7 @@ tr:nth-child(even) {
     z-index: 0;
 }
 
-.container-cover:before{
+.container-cover:before {
     content: '';
     width: 100%;
     height: 100%;
@@ -221,9 +221,10 @@ tr:nth-child(even) {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
-.container-info-cover{
+.container-info-cover {
     max-width: 800px;
     height: 500px;
     margin: auto;
@@ -236,17 +237,33 @@ tr:nth-child(even) {
     z-index: 1;
 }
 
-.container-info-cover h1{
+.container-info-cover h1 {
     font-size: 80px;
     font-weight: 500;
-    color:mediumblue;
+    color: mediumblue;
     margin-bottom: 20px;
 }
 
-.container-info-cover p{
-     color: midnightblue;
-     font-size: 30px;
-     font-weight: 300;
+.container-info-cover p {
+    color: midnightblue;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container-instrucciones {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.container-instrucciones p {
+    color: #333;
+    font-size: 15px;
 }
 
 .container-buscador {
@@ -254,7 +271,8 @@ tr:nth-child(even) {
     margin: auto;
     text-align: center;
     position: relative;
-    top: 90px; /* Ajusta la posición vertical según sea necesario */
+    top: 90px;
+    /* Ajusta la posición vertical según sea necesario */
     z-index: 1;
 }
 
@@ -267,12 +285,14 @@ tr:nth-child(even) {
 }
 
 .container-buscador input[type="text"] {
-    width: 70%; /* Ajusta el ancho del campo de entrada según sea necesario */
+    width: 70%;
+    /* Ajusta el ancho del campo de entrada según sea necesario */
     height: 35px;
 }
 
 .container-buscador input[type="submit"] {
-    width: 120px; /* Ajusta el ancho del campo de entrada según sea necesario */
+    width: 120px;
+    /* Ajusta el ancho del campo de entrada según sea necesario */
     height: 35px;
 }
 
@@ -282,7 +302,8 @@ tr:nth-child(even) {
 
 .container-lista {
     margin-top: 10px;
-    max-width: 80%; /* Puedes ajustar esto según sea necesario */
+    max-width: 80%;
+    /* Puedes ajustar esto según sea necesario */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -310,15 +331,16 @@ tr:nth-child(even) {
 
 /* Estilos para cada columna */
 .footer-column {
-    width: 45%; /* Ajusta el ancho según sea necesario */
+    width: 45%;
+    /* Ajusta el ancho según sea necesario */
 }
 
-.footer-column h3{
+.footer-column h3 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-.footer-column p{
+.footer-column p {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -347,5 +369,6 @@ tr:nth-child(even) {
 }
 
 .social-links a:hover {
-    color: #F50087; /* Cambia el color al pasar el cursor por encima */
+    color: #F50087;
+    /* Cambia el color al pasar el cursor por encima */
 }
