@@ -462,6 +462,7 @@
                 <p>Dirección: Universidad 231, Cerro de las Campanas S/N, Las Campanas, 76010 Santiago de Querétaro, Qro.</p>
                 <p>Teléfono: +52 442 192 1200  Ext. 3104</p>
                 <p>Correo Electrónico: admon.atedi@uaq.edu.mx</p>
+                <a href="../html/loginAdmin.html">Administradores</a>
             </div>
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
