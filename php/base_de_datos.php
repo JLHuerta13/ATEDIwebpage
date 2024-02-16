@@ -15,7 +15,7 @@ function obtenerBaseDeDatos()
         return $base_de_datos;
     } catch (Exception $e) {
         # Nota: ¡en la vida real no imprimas errores!
-        echo "Error obteniendo BD: " . $e->getMessage();
+        # echo "Error obteniendo BD: " . $e->getMessage();
         return null;
     }
     
