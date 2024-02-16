@@ -20,7 +20,7 @@
     $username = "root"; // Nombre de usuario de la base de datos
     $password = ""; // Contraseña de la base de datosC
     $dbname = "biblioteca_db"; // Nombre de la base de datos
-
+    
     // Crear conexión
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -34,26 +34,34 @@
     <header class="header-principal">
         <div class="header-principal-content">
             <div class="logo-principal">
-                <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
-                <a href=""><h1>Coordinación de Atención a Estudiantes con Discapacidad</h1></a> 
+                <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png"
+                            alt="Ir al inicio"></a></button>
+                <a href="">
+                    <h1>Coordinación de Atención a Estudiantes con Discapacidad</h1>
+                </a>
             </div>
-            
+
             <div class="menu-principal">
                 <nav>
                     <ul>
-                        <li class="menu-principal-selected"><a href="#quienes_somos" class="menu-principal-selected">¿Quiénes
+                        <li class="menu-principal-selected"><a href="#quienes_somos"
+                                class="menu-principal-selected">¿Quiénes
                                 somos?</a></li>
                         <li class="menu-principal-selected"><a href="#sala" class="menu-principal-selected">Sala
                                 multifuncional</a></li>
-                        <li class="menu-principal-selected"><a href="#deporte_adaptado" class="menu-principal-selected">Deporte
+                        <li class="menu-principal-selected"><a href="#deporte_adaptado"
+                                class="menu-principal-selected">Deporte
                                 Adaptado</a></li>
-                        <li class="menu-principal-selected"><a href="#servicio_social" class="menu-principal-selected">Servicio
+                        <li class="menu-principal-selected"><a href="#servicio_social"
+                                class="menu-principal-selected">Servicio
                                 Social</a></li>
-                        <li class="menu-principal-selected"><a href="#tutorias" class="menu-principal-selected">Tutorías</a>
+                        <li class="menu-principal-selected"><a href="#tutorias"
+                                class="menu-principal-selected">Tutorías</a>
                         </li>
                         <li class="menu-principal-selected"><a href="#cursos" class="menu-principal-selected">Cursos y
                                 talleres</a></li>
-                        <li class="menu-principal-selected"><a href="#admision" class="menu-principal-selected">Proceso de
+                        <li class="menu-principal-selected"><a href="#admision" class="menu-principal-selected">Proceso
+                                de
                                 admisión</a></li>
                         <li class="menu-principal-selected"><a href="prueba.php"
                                 class="menu-principal-selected">Biblioteca Virtual</a></li>
@@ -67,39 +75,42 @@
 
     <!-- CARRUSEL  -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/10_jess_logo_atedi_COLOR_horizontal.png" class="d-block w-25" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="titulo-slide">Diapositiva 1</h5>
-                    <p>Este es el texto de la diapositiva 1</p>
+                <div class="carousel-image">
+                    <img src="img/Baner_ss.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-caption-container">
+                    <div class="carousel-caption-text">
+                        <h5>Diapositiva 1</h5>
+                        <p>Este es el texto de la diapositiva 1</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/10_jess_logo_atedi_GRIS_horizontal.png" class="d-block w-25" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>DIapositiva 2</h5>
-                    <p>Este es el texto de la diapositiva 2</p>
+                <div class="carousel-image">
+                    <img src="img/Baner_cursos y talleres.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-caption-container">
+                    <div class="carousel-caption-text">
+                        <h5>Diapositiva 2</h5>
+                        <p>Este es el texto de la diapositiva 2</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/10_jess_logo_atedi_NEGRO_horizontal.png" class="d-block w-25" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Diapositiva 3</h5>
-                    <p>Este es el texto de la diapositiva 3</p>
+                <div class="carousel-image">
+                    <img src="img/Baner_golbol.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-caption-container">
+                    <div class="carousel-caption-text">
+                        <h5>Diapositiva 3</h5>
+                        <p>Este es el texto de la diapositiva 3</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Anterior</span>
@@ -109,16 +120,16 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Siguiente</span>
         </button>
-        -->
     </div>
     <section class="container" id="quienes_somos">
-        <img src="img/10_jess_logo_atedi_NEGRO.png" alt="" class="imagen">
+        <img src="img/10_jess_logo_atedi_COLOR.png" alt="" class="imagen">
         <h2 class="titulo">Inicio <br>¿Quiénes somos?</h2>
         <div class="box">
             <p>
-            La Coordinación de Atención a Estudiantes con Discapacidad (ATEDI) busca disminuir las barreras de accesibilidad presentes en la discapacidad al 
-            gestionar los ajustes razonables necesarios que permitan igualdad de condiciones en 
-            comparación con sus pares sin discapacidad.
+                La Coordinación de Atención a Estudiantes con Discapacidad (ATEDI) busca disminuir las barreras de
+                accesibilidad presentes en la discapacidad al
+                gestionar los ajustes razonables necesarios que permitan igualdad de condiciones en
+                comparación con sus pares sin discapacidad.
             </p>
         </div>
     </section>
@@ -155,11 +166,11 @@
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala6.jpeg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala10.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala5.jpeg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala11.jpg" alt="" style="width: 30%; border-radius: 8px;">
                 <img src="img/Sala_multi/sala9.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
             </div>
         </div>
@@ -186,7 +197,7 @@
         </div>
     </section>
     <section class="container">
-    <div class="gallery">
+        <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 40%; border-radius: 8px;">
                 <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 40%; border-radius: 8px;">
@@ -213,7 +224,7 @@
         </div>
     </section>
     <section class="container">
-    <div class="gallery">
+        <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Servicio/servicio1.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
                 <img src="img/Servicio/servicio2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
@@ -238,7 +249,7 @@
         </div>
     </section>
     <section class="container">
-    <div class="gallery">
+        <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Tutorias/tutorias1.jpg" alt="" style="width: 35%; border-radius: 8px;">
                 <img src="img/Tutorias/tutorias2.jpg" alt="" style="width: 35%; border-radius: 8px;">
@@ -254,167 +265,175 @@
         <h2 class="titulo">Cursos y talleres </h2>
     </section>
     <section class="container" alt="Información sobre cursos disponibles">
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            BRAILLE
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            08 A 10 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            25
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            ENERO-JULIO
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            DOCENTES
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            Proporcionar una herramienta a los docentes para que sepan cómo pueden apoyar a los estudiantes durante sus clases.
-        </li>
-    </ul>
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            HACIA UNA TUTORÍA INCLUSIVA
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            11 A 12 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            25
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            MAYO - JUNIO
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            DOCENTES, AUTORIDADES ACADÉMICAS
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            Sensibilizar en torno a los requerimientos de los estudiantes que tienen alguna discapacidad; brindar información de lo que hace ATEDI y cómo la Coordinación puede ayudarles en su labor académica.
-        </li>
-    </ul>
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            LENGUA DE SEÑAS MEXICANA
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            16 A 18 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            25
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            ENERO-JULIO
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            COMUNIDAD UNIVERSITARIA
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            A integrantes de la comunidad universitaria interesados en aprender otra lengua de comunicación, que les permita el contacto con compañeros y miembros de la comunidad sorda.
-        </li>
-    </ul>
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            13 A 16 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            25
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            ENERO-JULIO
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            COMUNIDAD CIEGA
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            Identificar y apoyar a los aspirantes a presentar su examen EXCOBA para nivel bachillerato o licenciatura.
-        </li>
-    </ul>
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            ORIENTACIÓN Y MOVILIDAD
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            10 A 14 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            4
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            1 DÍA
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE ARQUITECTURA.
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad motriz.
-        </li>
-    </ul>
-    <ul class="course-info">
-        <li>
-            <strong>NOMBRE:</strong>
-            ORIENTACIÓN Y MOVILIDAD
-        </li>
-        <li>
-            <strong>HORARIO POSIBLE:</strong>
-            10 A 14 HORAS
-        </li>
-        <li>
-            <strong>TOTAL HORAS:</strong>
-            4
-        </li>
-        <li>
-            <strong>PERIODO:</strong>
-            1 DÍA
-        </li>
-        <li>
-            <strong>DIRIGIDO A:</strong>
-            ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE INGENIERÍA CIVIL.
-        </li>
-        <li>
-            <strong>OBJETIVO:</strong>
-            Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad motriz para el diseño de ciudades amigables.
-        </li>
-    </ul>
-</section>
-<section class="container">
-    <div class="gallery">
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                BRAILLE
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                08 A 10 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                25
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                ENERO-JULIO
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                DOCENTES
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                Proporcionar una herramienta a los docentes para que sepan cómo pueden apoyar a los estudiantes durante
+                sus clases.
+            </li>
+        </ul>
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                HACIA UNA TUTORÍA INCLUSIVA
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                11 A 12 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                25
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                MAYO - JUNIO
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                DOCENTES, AUTORIDADES ACADÉMICAS
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                Sensibilizar en torno a los requerimientos de los estudiantes que tienen alguna discapacidad; brindar
+                información de lo que hace ATEDI y cómo la Coordinación puede ayudarles en su labor académica.
+            </li>
+        </ul>
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                LENGUA DE SEÑAS MEXICANA
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                16 A 18 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                25
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                ENERO-JULIO
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                COMUNIDAD UNIVERSITARIA
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                A integrantes de la comunidad universitaria interesados en aprender otra lengua de comunicación, que les
+                permita el contacto con compañeros y miembros de la comunidad sorda.
+            </li>
+        </ul>
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                13 A 16 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                25
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                ENERO-JULIO
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                COMUNIDAD CIEGA
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                Identificar y apoyar a los aspirantes a presentar su examen EXCOBA para nivel bachillerato o
+                licenciatura.
+            </li>
+        </ul>
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                ORIENTACIÓN Y MOVILIDAD
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                10 A 14 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                4
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                1 DÍA
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE ARQUITECTURA.
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad
+                motriz.
+            </li>
+        </ul>
+        <ul class="course-info">
+            <li>
+                <strong>NOMBRE:</strong>
+                ORIENTACIÓN Y MOVILIDAD
+            </li>
+            <li>
+                <strong>HORARIO POSIBLE:</strong>
+                10 A 14 HORAS
+            </li>
+            <li>
+                <strong>TOTAL HORAS:</strong>
+                4
+            </li>
+            <li>
+                <strong>PERIODO:</strong>
+                1 DÍA
+            </li>
+            <li>
+                <strong>DIRIGIDO A:</strong>
+                ESTUDIANTES DE LOS PRIMEROS SEMESTRES DE LA CARRERA DE INGENIERÍA CIVIL.
+            </li>
+            <li>
+                <strong>OBJETIVO:</strong>
+                Obtener información para el diseño de espacios que faciliten la movilidad de personas con discapacidad
+                motriz para el diseño de ciudades amigables.
+            </li>
+        </ul>
+    </section>
+    <section class="container">
+        <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Cursos/cursos1.jpeg" alt="" style="height: 20%; border-radius: 8px;">
+                <img src="img/Cursos/cursos5.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Cursos/cursos6.jpg" alt="" style="width: 20%; height: 20%; border-radius: 8px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Cursos/cursos3.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
@@ -429,7 +448,7 @@
         <h2 class="titulo">Proceso de admisión </h2>
         <div class="box">
             <p>
-            La Coordinación de Atención a Estudiantes con Discapacidad es un espacio destinado a realizar un
+                La Coordinación de Atención a Estudiantes con Discapacidad es un espacio destinado a realizar un
                 monitoreo de
                 las y los estudiantes con Discapacidad a corto, mediano y largo plazo, durante su estancia en la
                 Universidad
@@ -438,7 +457,7 @@
         </div>
     </section>
     <section class="container">
-    <div class="gallery">
+        <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Admision/admision1.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
             </div>
@@ -451,27 +470,36 @@
     </section>
     <section class="container" id="volver_a_inicio">
         <div class="logo-principal">
-                <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
-                <a href=""><h1>Volver al inicio</h1></a> 
-            </div>
+            <button class="custom-button"><a href="#"><img class="logo-img" src="img/10_jess_logo_atedi_COLOR.png"
+                        alt="Ir al inicio"></a></button>
+            <a href="">
+                <h1>Volver al inicio</h1>
+            </a>
+        </div>
     </section>
     <footer class="footer">
         <div class="footer-columns">
             <div class="footer-column">
                 <h3>Contacto</h3>
-                <p>Dirección: Universidad 231, Cerro de las Campanas S/N, Las Campanas, 76010 Santiago de Querétaro, Qro.</p>
-                <p>Teléfono: +52 442 192 1200  Ext. 3104</p>
+                <p>Dirección: Universidad 231, Cerro de las Campanas S/N, Las Campanas, 76010 Santiago de Querétaro,
+                    Qro.</p>
+                <p>Teléfono: +52 442 192 1200 Ext. 3104</p>
                 <p>Correo Electrónico: admon.atedi@uaq.edu.mx</p>
-                <a href="html/login.html">Administradores</a>
+                <a href="html/loginAdmin.html">Administradores</a>
             </div>
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
                 <ul class="social-links">
-                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
-                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
-                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
-                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="https://www.youtube.com/@atediuaq">Youtube</a></li>
-                    <li><img src="img/icons8-spotify-30.png" alt=""><a href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
+                    <li><img src="img/icons8-facebook-30.png" alt=""><a
+                            href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
+                    <li><img src="img/icons8-tiktok-30.png" alt=""><a
+                            href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
+                    <li><img src="img/icons8-instagram-30.png" alt=""><a
+                            href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
+                    <li><img src="img/icons8-youtube-30.png" alt=""><a
+                            href="https://www.youtube.com/@atediuaq">Youtube</a></li>
+                    <li><img src="img/icons8-spotify-30.png" alt=""><a
+                            href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
                 </ul>
             </div>
         </div>

@@ -13,17 +13,18 @@
     background: none;
     border: none;
     padding: 0;
-  }
+}
 
 .header-principal {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 120px;
     background-color: aliceblue;
     box-shadow: 0 4px 25px -22px black;
-    z-index: 2;
+    z-index: 0;
+    margin-bottom: 20px;
 }
 
 .header-principal-content {
@@ -59,6 +60,7 @@
 /* MENU PRINCIPAL */
 .menu-principal {
     height: 80px;
+    position: relative;
 }
 
 .menu-principal nav {
@@ -113,8 +115,15 @@
 }
 
 /* CARRUSEL */
+#carouselExampleCaptions {
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    padding-bottom: 120px;
+}
+
 .titulo-slide {
-    
+
     font-size: 14px;
     align-content: center;
 }
@@ -127,8 +136,8 @@
 /* Estilos para cambiar el color del texto, botones y barra inferior a negro */
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: black;
-    color: black;
+    background-color: #F50087;
+    color: #F50087;
 }
 
 .carousel-indicators button {
@@ -139,8 +148,47 @@
     background-color: transparent;
 }
 
-.carousel-caption {
-    color: black;
+.carousel-caption-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.carousel-caption-text {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.carousel-caption-text {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.carousel-image {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 2;
+    /* Asegura que los controles estén por encima del texto */
+}
+
+.carousel-item {
+    position: relative;
 }
 
 
@@ -190,7 +238,7 @@
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 50px;
     scroll-margin-top: 130px;
 }
 
@@ -209,7 +257,8 @@
 
 /* Estilos para cada columna */
 .footer-column {
-    width: 45%; /* Ajusta el ancho según sea necesario */
+    width: 45%;
+    /* Ajusta el ancho según sea necesario */
 }
 
 /* Estilos para los enlaces de redes sociales */
@@ -229,5 +278,6 @@
 }
 
 .social-links a:hover {
-    color: #F50087; /* Cambia el color al pasar el cursor por encima */
+    color: #F50087;
+    /* Cambia el color al pasar el cursor por encima */
 }

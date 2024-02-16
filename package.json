@@ -1,0 +1,25 @@
+{
+  "name": "atediwebpage",
+  "version": "1.0.0",
+  "description": "Pagina web para la organizacion Atedi de la UAQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./Backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JLHuerta13/ATEDIwebpage.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "Angel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1"
+  }
+}
