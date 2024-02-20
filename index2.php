@@ -160,13 +160,16 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Sala_multi/sala1.jpg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala2.jpg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala3.jpg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala1.jpg" alt=""
+                    style="width: 30%; height:15%; border-radius: 8px; margin-top: 30px;">
+                <img src="img/Sala_multi/sala13.jpg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala3.jpg" alt=""
+                    style="width: 30%; height:15%; border-radius: 8px; margin-top: 30px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala10.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala2.jpg" alt="" style="width: 30%; border-radius: 8px;">
+                <img src="img/Sala_multi/sala12.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
@@ -228,11 +231,13 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Servicio/servicio1.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
                 <img src="img/Servicio/servicio2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Servicio/servicio3.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio3.jpg" alt=""
+                    style="width: 30%; height: 20%; border-radius: 8px; margin-top: 15px;">
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <img src="img/Servicio/servicio4.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Servicio/servicio5.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <img src="img/Servicio/servicio5.jpeg" alt=""
+                    style="width: 30%; height: 20%; border-radius: 8px; margin-top: 15px;">
                 <img src="img/Servicio/servicio7.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
             </div>
         </div>
