@@ -16,7 +16,8 @@ if (empty($_SESSION["correo"])) {
 
 
 # Podemos recuperar datos de la sesión
-echo "<br>Sé que tu correo es: <strong>" . $_SESSION["correo"] . "</strong>";
+echo "<h1>Subir Archivo</h1>";
+echo "<p>iniciaste sesion con el correo : <strong>" . $_SESSION["correo"] . "</strong> </p>";
 
  
 ?>
@@ -27,28 +28,30 @@ echo "<br>Sé que tu correo es: <strong>" . $_SESSION["correo"] . "</strong>";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subir archivos</title>
+    <link rel="stylesheet" type="text/css" href="../css/subir.css">
 </head>
 
 <body>
     
-    <form action="subir.php" method="post" enctype="multipart/form-data">
+    <form class="post" action="subir.php" method="post" enctype="multipart/form-data">
         
+        <h4>Categoria</h4>
+        <input name="Categoria" type ="text"  placeholder="pelicula,libro,etc">
         
-        <br><br>
-        Archivo:
+        <h4>Descripción</h4>
+        <input name="Descripcion" type ="text"  placeholder="Describe el archivo">
+        <h4><h4>
+        <label class="custom-file-upload">    
         <input type="file" name="archivo" />
-
+        </label>
         <button type="submit">Subir</button>
-        <h3>Categoria</h3>
-        <input name="Categoria"  placeholder="pelicula,libro,etc">
-        
-        <h3>Descripcion</h3>
-        <input name="Descripcion"  placeholder="Describe el archivo">
-
+        <h4></h4>
     </form>
 
+        <a href="logout.php">Cerrar sesión</a>
+   
 </body>
-
+     
 </html>
 
-<a href="logout.php">Cerrar sesión</a>
+
