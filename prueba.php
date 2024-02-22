@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,8 @@
             margin-top: 20px;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
@@ -58,9 +60,9 @@
             background-color: #007bff;
             color: #fff;
         }
-
     </style>
 </head>
+
 <body>
     <?php
     // Datos de conexión a la base de datos (reemplaza con tus propios datos)
@@ -68,7 +70,7 @@
     $username = "root"; // Nombre de usuario de la base de datos
     $password = ""; // Contraseña de la base de datos
     $dbname = "biblioteca_db"; // Nombre de la base de datos
-
+    
     // Crear conexión
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -97,21 +99,11 @@
     <header>
         <div class="header-content">
             <div class="logo">
-                <button class="custom-button" ><a href="index2.php"><img class="logo" src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
+                <button class="custom-button"><a href="index2.php"><img class="logo"
+                            src="img/10_jess_logo_atedi_COLOR.png" alt="Ir al inicio"></a></button>
                 <!--<img class="logo" src="img/10_jess_logo_atedi_COLOR.png" alt="..." > -->
                 <h1>Biblioteca Virtual</h1>
             </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="menu-selected"><a href="#" class="menu-selected">Textos adaptados</a></li>
-                        <li class="menu-selected"><a href="#" class="menu-selected">Audiolibros</a></li>
-                        <li class="menu-selected"><a href="#" class="menu-selected">Documentales</a></li>
-                        <li class="menu-selected"><a href="#" class="menu-selected">Películas y series</a></li>
-                    </ul>
-                </nav>
-            </div>
-
         </div>
     </header>
 
@@ -125,13 +117,14 @@
     <div class="box">
         <div class="container-instrucciones">
             <h1>
-            Instrucciones para navegación en la tabla de contenido bibliográfico: <br><br>
+                Instrucciones para navegación en la tabla de contenido bibliográfico: <br><br>
             </h1>
             <p>
-            Para acceder al cuadro de edición para buscar archivos, pulsa la tecla E. Después de escribir tu petición, pulsa la tecla Enter. <br><br>
-            Para acceder a la tabla, pulsa la tecla T. <br><br>
-            Para desplazarte en la tabla, pulsa la tecla Control + Alt y utiliza las flechas del teclado. <br><br>
-            Para dirigirte a los enlaces para abrir o descargar un archivo, pulsa la tecla K. <br><br>
+                Para acceder al cuadro de edición para buscar archivos, pulsa la tecla E. Después de escribir tu
+                petición, pulsa la tecla Enter. <br><br>
+                Para acceder a la tabla, pulsa la tecla T. <br><br>
+                Para desplazarte en la tabla, pulsa la tecla Control + Alt y utiliza las flechas del teclado. <br><br>
+                Para dirigirte a los enlaces para abrir o descargar un archivo, pulsa la tecla K. <br><br>
 
             </p>
         </div>
@@ -147,27 +140,27 @@
 
     <?php
     // Consulta SQL para obtener información del material con búsqueda
-if (isset($_GET['buscar'])) {
-    $buscar = $conn->real_escape_string($_GET['buscar']);
+    if (isset($_GET['buscar'])) {
+        $buscar = $conn->real_escape_string($_GET['buscar']);
 
-    // Buscar en todas las columnas relevantes
-    $sql = "SELECT * FROM info_material WHERE 
+        // Buscar en todas las columnas relevantes
+        $sql = "SELECT * FROM info_material WHERE 
             nombre LIKE '%$buscar%' OR 
             categoria LIKE '%$buscar%' OR 
             descripcion LIKE '%$buscar%' OR 
             tipo LIKE '%$buscar%'";
 
+        $result = $conn->query($sql);
+        $total_resultados = $result->num_rows;
+
+        // Calcular el número total de páginas
+        $total_paginas = ceil($total_resultados / $resultados_por_pagina);
+    } else {
+        // Consulta sin búsqueda, aplicar paginación
+        $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
+    }
+
     $result = $conn->query($sql);
-    $total_resultados = $result->num_rows;
-
-    // Calcular el número total de páginas
-    $total_paginas = ceil($total_resultados / $resultados_por_pagina);
-} else {
-    // Consulta sin búsqueda, aplicar paginación
-    $sql = "SELECT * FROM info_material LIMIT $offset, $resultados_por_pagina";
-}
-
-$result = $conn->query($sql);
     ?>
 
     <!--   Contenido de la tabla    -->
@@ -203,7 +196,7 @@ $result = $conn->query($sql);
                 ?>
             </tbody>
         </table>
-        
+
         <!-- Paginación -->
         <div class="pagination">
             <?php
@@ -219,24 +212,31 @@ $result = $conn->query($sql);
         <div class="footer-columns">
             <div class="footer-column">
                 <h3>Contacto</h3>
-                <p>Dirección: Universidad 231, Cerro de las Campanas S/N, Las Campanas, 76010 Santiago de Querétaro, Qro.</p>
-                <p>Teléfono: +52 442 192 1200  Ext. 3104</p>
+                <p>Dirección: Universidad 231, Cerro de las Campanas S/N, Las Campanas, 76010 Santiago de Querétaro,
+                    Qro.</p>
+                <p>Teléfono: +52 442 192 1200 Ext. 3104</p>
                 <p>Correo Electrónico: admon.atedi@uaq.edu.mx</p>
             </div>
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
                 <ul class="social-links">
-                    <li><img src="img/icons8-facebook-30.png" alt=""><a href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
-                    <li><img src="img/icons8-tiktok-30.png" alt=""><a href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
-                    <li><img src="img/icons8-instagram-30.png" alt=""><a href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
-                    <li><img src="img/icons8-youtube-30.png" alt=""><a href="https://www.youtube.com/@atediuaq">Youtube</a></li>
-                    <li><img src="img/icons8-spotify-30.png" alt=""><a href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
+                    <li><img src="img/icons8-facebook-30.png" alt=""><a
+                            href="https://www.facebook.com/atencionaladiscapacidadUAQ">Facebook</a></li>
+                    <li><img src="img/icons8-tiktok-30.png" alt=""><a
+                            href="https://www.tiktok.com/@atediuaq">Tik-Tok</a></li>
+                    <li><img src="img/icons8-instagram-30.png" alt=""><a
+                            href="https://www.instagram.com/atedi_uaq/">Instagram</a></li>
+                    <li><img src="img/icons8-youtube-30.png" alt=""><a
+                            href="https://www.youtube.com/@atediuaq">Youtube</a></li>
+                    <li><img src="img/icons8-spotify-30.png" alt=""><a
+                            href="https://open.spotify.com/show/5WG5po7CDHWdEDUhHfP4GE">Spotify</a></li>
                 </ul>
             </div>
         </div>
     </footer>
-    
-    
+
+
 
 </body>
+
 </html>

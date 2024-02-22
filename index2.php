@@ -82,8 +82,8 @@
                 </div>
                 <div class="carousel-caption-container">
                     <div class="carousel-caption-text">
-                        <h5>Diapositiva 1</h5>
-                        <p>Este es el texto de la diapositiva 1</p>
+                        <h5>Realiza tu servicio social en la Coordinación de ATEDI</h5>
+                        <p>Inscripciones abiertas</p>
                     </div>
                 </div>
             </div>
@@ -93,8 +93,8 @@
                 </div>
                 <div class="carousel-caption-container">
                     <div class="carousel-caption-text">
-                        <h5>Diapositiva 2</h5>
-                        <p>Este es el texto de la diapositiva 2</p>
+                        <h5>Conoce nuestros cursos y talleres</h5>
+                        <p>Braille y Lengua de Señas Mexicana</p>
                     </div>
                 </div>
             </div>
@@ -104,8 +104,8 @@
                 </div>
                 <div class="carousel-caption-container">
                     <div class="carousel-caption-text">
-                        <h5>Diapositiva 3</h5>
-                        <p>Este es el texto de la diapositiva 3</p>
+                        <h5>Deporte Adaptado UAQ. Inscripciones abiertas para Golbol</h5>
+                        <p>Clic para mas información</p>
                     </div>
                 </div>
             </div>
@@ -160,21 +160,47 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Sala_multi/sala1.jpg" alt=""
-                    style="width: 30%; height:15%; border-radius: 8px; margin-top: 30px;">
-                <img src="img/Sala_multi/sala13.jpg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala3.jpg" alt=""
-                    style="width: 30%; height:15%; border-radius: 8px; margin-top: 30px;">
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala1.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala13.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala3.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala2.jpg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala12.jpg" alt="" style="width: 30%; height: 15%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala2.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala12.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala11.jpg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Sala_multi/sala9.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala11.jpg" alt="" style="width: 100%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Sala_multi/sala9.jpeg" alt=""
+                        style="margin-left: 70px; width: 80%; border-radius: 8px;">
+                    <p class="description" style="margin-left:70px;">Descripción de la imagen</p>
+                </div>
             </div>
         </div>
     </section>
@@ -202,15 +228,36 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 40%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 40%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Deporte_adaptado/dep_adaptado5.jpg" alt="" style="width: 15%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado6.jpg" alt="" style="width: 15%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado7.jpg" alt="" style="width: 15%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado8.jpg" alt="" style="width: 15%; border-radius: 8px;">
-                <img src="img/Deporte_adaptado/dep_adaptado9.jpg" alt="" style="width: 15%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado5.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado6.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado7.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado8.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Deporte_adaptado/dep_adaptado9.jpg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
         </div>
     </section>
@@ -229,16 +276,33 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Servicio/servicio1.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Servicio/servicio2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Servicio/servicio3.jpg" alt=""
-                    style="width: 30%; height: 20%; border-radius: 8px; margin-top: 15px;">
+                <div class="image-container" style="margin-right: 0;">
+                    <img src="img/Servicio/servicio1.jpg" alt=""
+                        style="border-right: 20px; width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Servicio/servicio7.jpeg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Servicio/servicio3.jpg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Servicio/servicio4.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Servicio/servicio5.jpeg" alt=""
-                    style="width: 30%; height: 20%; border-radius: 8px; margin-top: 15px;">
-                <img src="img/Servicio/servicio7.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Servicio/servicio4.jpg" alt="" style="width: 70%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Servicio/servicio2.jpg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Servicio/servicio5.jpeg" alt="" style="width: 90%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
         </div>
     </section>
@@ -256,16 +320,27 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Tutorias/tutorias1.jpg" alt="" style="width: 35%; border-radius: 8px;">
-                <img src="img/Tutorias/tutorias2.jpg" alt="" style="width: 35%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Tutorias/tutorias1.jpg" alt="" style="width: 60%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Tutorias/tutorias2.jpg" alt="" style="width: 60%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Tutorias/tutorias3.jpeg" alt="" style="width: 30%; border-radius: 8px;">
-                <img src="img/Tutorias/tutorias4.jpeg" alt="" style="width: 40%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Tutorias/tutorias3.jpeg" alt="" style="width: 60%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Tutorias/tutorias4.jpeg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
         </div>
     </section>
-    <br><br><br><br><br>
     <section class="container" id="cursos">
         <h2 class="titulo">Cursos y talleres </h2>
     </section>
@@ -273,109 +348,126 @@
         <ul class="course-info">
             <li>
                 <strong>NOMBRE:</strong>
-                BRAILLE
+                "Pensamiento lógico-matemático para alumnos con
+                discapacidad auditiva y discapacidad intelectuial"
             </li>
-            <li>
-                <strong>HORARIO POSIBLE:</strong>
-                08 A 10 HORAS
+            <li class="elementos_cursos">
+                <strong>HORARIO:</strong>
+                Lunes y miércoles de 4:00pm a 6:00pm
             </li>
             <li>
                 <strong>TOTAL HORAS:</strong>
-                25
+                64 horas
             </li>
             <li>
                 <strong>PERIODO:</strong>
-                ENERO-JULIO
+                Enero - Mayo 2024
             </li>
             <li>
                 <strong>DIRIGIDO A:</strong>
-                DOCENTES
+                Aspirantes y alumnos de la UAQ
             </li>
             <li>
                 <strong>OBJETIVO:</strong>
-                Proporcionar una herramienta a los docentes para que sepan cómo pueden apoyar a los estudiantes durante
-                sus clases.
+                "Proporcionar a las y los aspirantes los conocimientos
+                necesarios para que puedan nivelar sus conocimientos y
+                competencias académicas para ingresar y desempeñarse
+                exitosamente en alguno de los diferentes planes de estudio
+                de la Universidad Autónoma de Querétaro"
             </li>
         </ul>
         <ul class="course-info">
             <li>
                 <strong>NOMBRE:</strong>
-                HACIA UNA TUTORÍA INCLUSIVA
+                "Pensamiento lógico-matemático para alumnos con
+                discapacidad visual"
             </li>
             <li>
-                <strong>HORARIO POSIBLE:</strong>
-                11 A 12 HORAS
+                <strong>HORARIO:</strong>
+                Martes de 4:00pm a 6:00pm
             </li>
             <li>
                 <strong>TOTAL HORAS:</strong>
-                25
+                36 horas
             </li>
             <li>
                 <strong>PERIODO:</strong>
-                MAYO - JUNIO
+                Enero - Mayo 2024
             </li>
             <li>
                 <strong>DIRIGIDO A:</strong>
-                DOCENTES, AUTORIDADES ACADÉMICAS
+                Aspirantes y alumnos de la UAQ
             </li>
             <li>
                 <strong>OBJETIVO:</strong>
-                Sensibilizar en torno a los requerimientos de los estudiantes que tienen alguna discapacidad; brindar
-                información de lo que hace ATEDI y cómo la Coordinación puede ayudarles en su labor académica.
+                "Proporcionar a las y los aspirantes los conocimientos
+                necesarios para que puedan nivelar sus conocimientos y
+                competencias académicas para ingresar y desempeñarse
+                exitosamente en alguno de los diferentes planes de estudio
+                de la Universidad Autónoma de Querétaro"
             </li>
         </ul>
         <ul class="course-info">
             <li>
                 <strong>NOMBRE:</strong>
-                LENGUA DE SEÑAS MEXICANA
+                "Español escrito para alumnos con
+                discapacidad auditiva y discapacidad intelectual"
             </li>
             <li>
-                <strong>HORARIO POSIBLE:</strong>
-                16 A 18 HORAS
+                <strong>HORARIO:</strong>
+                Martes y jueves de 4:00pm a 6:00pm
+
             </li>
             <li>
                 <strong>TOTAL HORAS:</strong>
-                25
+                72 horas
             </li>
             <li>
                 <strong>PERIODO:</strong>
-                ENERO-JULIO
+                Enero - Mayo 2024
             </li>
             <li>
                 <strong>DIRIGIDO A:</strong>
-                COMUNIDAD UNIVERSITARIA
+                Aspirantes y alumnos de la UAQ
             </li>
             <li>
                 <strong>OBJETIVO:</strong>
-                A integrantes de la comunidad universitaria interesados en aprender otra lengua de comunicación, que les
-                permita el contacto con compañeros y miembros de la comunidad sorda.
+                "Proporcionar a las y los aspirantes los conocimientos
+                necesarios para que puedan nivelar sus conocimientos y
+                competencias académicas para ingresar y desempeñarse
+                exitosamente en alguno de los diferentes planes de estudio
+                de la Universidad Autónoma de Querétaro"
             </li>
         </ul>
         <ul class="course-info">
             <li>
                 <strong>NOMBRE:</strong>
-                CURSO DE REGULARIZACIÓN EN LAS MATERIAS DE ESPAÑOL Y MATEMÁTICAS.
+                "Español escrito para alumnos con
+                discapacidad visual"
             </li>
             <li>
-                <strong>HORARIO POSIBLE:</strong>
-                13 A 16 HORAS
+                <strong>HORARIO:</strong>
+                Jueves de 4:00pm a 6:00pm
             </li>
             <li>
                 <strong>TOTAL HORAS:</strong>
-                25
+                36 horas
             </li>
             <li>
                 <strong>PERIODO:</strong>
-                ENERO-JULIO
+                Enero - Mayo 2024
             </li>
             <li>
                 <strong>DIRIGIDO A:</strong>
-                COMUNIDAD CIEGA
+                Aspirantes y alumnos de la UAQ
             </li>
             <li>
                 <strong>OBJETIVO:</strong>
-                Identificar y apoyar a los aspirantes a presentar su examen EXCOBA para nivel bachillerato o
-                licenciatura.
+                "Proporcionar a las y los aspirantes los conocimientos
+                necesarios para que puedan nivelar sus conocimientos y
+                competencias académicas para ingresar y desempeñarse
+                exitosamente en alguno de los diferentes planes de estudio
+                de la Universidad Autónoma de Querétaro"
             </li>
         </ul>
         <ul class="course-info">
@@ -436,14 +528,32 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Cursos/cursos1.jpeg" alt="" style="height: 20%; border-radius: 8px;">
-                <img src="img/Cursos/cursos5.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Cursos/cursos6.jpg" alt="" style="width: 20%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Cursos/cursos1.jpeg" alt="" style="height: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Cursos/cursos5.jpg" alt="" style="width: 90%; height: 70%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Cursos/cursos6.jpg" alt="" style="width: 80%; height: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Cursos/cursos3.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Cursos/cursos2.jpg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
-                <img src="img/Cursos/cursos4.jpeg" alt="" style="width: 30%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Cursos/cursos3.jpg" alt="" style="width: 90%; height: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Cursos/cursos2.jpg" alt="" style="width: 90%; height: 100%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Cursos/cursos4.jpeg" alt="" style="width: 90%; height: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
 
             </div>
         </div>
@@ -464,11 +574,20 @@
     <section class="container">
         <div class="gallery">
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Admision/admision1.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Admision/admision1.jpg" alt="" style="width: 40%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
-                <img src="img/Admision/admision2.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
-                <img src="img/Admision/admision3.jpg" alt="" style="width: 40%; height: 20%; border-radius: 8px;">
+                <div class="image-container">
+                    <img src="img/Admision/admision2.jpg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/Admision/admision3.jpg" alt="" style="width: 80%; border-radius: 8px;">
+                    <p class="description">Descripción de la imagen</p>
+                </div>
             </div>
         </div>
     </section>
@@ -490,7 +609,7 @@
                     Qro.</p>
                 <p>Teléfono: +52 442 192 1200 Ext. 3104</p>
                 <p>Correo Electrónico: admon.atedi@uaq.edu.mx</p>
-                <a href="html/loginAdmin.html">Administradores</a>
+                <a href="html/login.html">Administradores</a>
             </div>
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
