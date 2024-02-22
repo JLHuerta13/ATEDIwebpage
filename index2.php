@@ -133,6 +133,14 @@
             </p>
         </div>
     </section>
+    <section class="container" id="video_quienes_somos">
+        <div class="box">
+            <iframe width="600" height="340"
+            src="https://www.youtube.com/embed/H1W3L5rS68Y">
+            
+            </iframe>
+        </div>
+    </section>
     <section class="container">
         <h2 class="titulo">Objetivos: </h2>
         <div class="box">

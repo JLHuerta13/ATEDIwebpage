@@ -281,3 +281,9 @@
     color: #F50087;
     /* Cambia el color al pasar el cursor por encima */
 }
+
+iframe{
+    display: block;
+    text-align: center;
+    margin:auto;
+}
