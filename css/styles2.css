@@ -151,8 +151,10 @@
 .carousel-caption-container {
     position: relative;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
     background-color: rgba(0, 0, 0, 0.5);
     /* Fondo semi-transparente */
     padding: 10px;
@@ -237,9 +239,41 @@
     height: 500px;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para centrar y ajustar tamaño de las últimas tres imágenes */
+.small-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.small-images .image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.small-images .image-container img {
+    width: 70%;
+    /* Tamaño deseado */
+    border-radius: 8px;
+}
+
+.description {
+    text-align: center;
+}
+
 .container {
     margin-top: 50px;
     scroll-margin-top: 130px;
+}
+
+.course-info li {
+    list-style: none;
 }
 
 .footer {
