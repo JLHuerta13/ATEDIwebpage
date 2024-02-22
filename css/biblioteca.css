@@ -1,0 +1,46 @@
+/*_____________________________________________________________________*/
+/* Estilo para la lista */
+/*---------------------------------------------------------------------*/
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+ul li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Estilo para el enlace del archivo */
+ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo para la descripción */
+ul li p {
+  margin: 0;
+}
+
+/* Estilo para el enlace de visualización */
+ul li .abrir {
+  background-color: #4caf50;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+/* Estilo para el enlace de descarga */
+ul li .descargar {
+  background-color: #2196f3;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
+}

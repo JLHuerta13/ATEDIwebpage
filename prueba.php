@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Virtual ATEDI</title>
-    <link rel="stylesheet" href="fileStyles.css">
+    <link rel="stylesheet" href="css/biblioteca.css">
     <link rel="stylesheet" href="css/estilos.css">
     <style>
         /* Estilos para la tabla */
