@@ -135,9 +135,8 @@
     </section>
     <section class="container" id="video_quienes_somos">
         <div class="box">
-            <iframe width="600" height="340"
-            src="https://www.youtube.com/embed/H1W3L5rS68Y">
-            
+            <iframe width="600" height="340" src="https://www.youtube.com/embed/H1W3L5rS68Y">
+
             </iframe>
         </div>
     </section>
@@ -170,44 +169,48 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Sala_multi/sala1.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Descripción</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala13.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Descripción</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala3.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Descripción</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Sala_multi/sala4.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI impartiendo un taller de braille a un grupo de aspirantes a
+                        bachilleres y licenciatura de la UAQ</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala2.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Estudiante de la universidad leyendo un texto en braille</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala12.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Cabina multifuncional con 2 impresoras de Brailley computadora para
+                        adaptaciones tiflotecnológicas</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Sala_multi/sala8.jpeg" alt="" style="width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Estudiantes de bachilleres utilizando el cubarín para realizar ejercicios
+                        matemáticos</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala11.jpg" alt="" style="width: 100%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Grupo de personas en la inauguración de la sala multifuncional de ATEDI</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Sala_multi/sala9.jpeg" alt=""
                         style="margin-left: 70px; width: 80%; border-radius: 8px;">
-                    <p class="description" style="margin-left:70px;">Descripción de la imagen</p>
+                    <p class="description" style="margin-left:70px;">Personal de ATEDI impartiendo taller de NVDA a
+                        usuarios externos</p>
                 </div>
             </div>
         </div>
@@ -238,33 +241,36 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado10.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Foto de los participantes en la meta en la carrera de la semana de la
+                        discapacidad</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado11.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Asistentes de la semana de la discapacidad jugando Golbol</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado5.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Usuario de silla de ruedas ejecitandose</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado6.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Usuario de deporte adaptado en clase de paranatación</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado7.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI realizando ejercicio de movilidad a un joven con el uso de
+                        un bastón blanco</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado8.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Entrenador de deporte adaptado impartiendo clase de paranatación</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Deporte_adaptado/dep_adaptado9.jpg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Estudiante preparándose para entrenamiento de basquetbol en silla de ruedas
+                    </p>
                 </div>
             </div>
         </div>
@@ -287,29 +293,31 @@
                 <div class="image-container" style="margin-right: 0;">
                     <img src="img/Servicio/servicio1.jpg" alt=""
                         style="border-right: 20px; width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Botargas institucionales de la UAQ junto a grupo de estudiantes</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Servicio/servicio7.jpeg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Público que asistió a la demostración de deporte adaptado</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Servicio/servicio3.jpg" alt="" style="width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Grupo de participantes después de la demostración de voleibol sentado</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Servicio/servicio4.jpg" alt="" style="width: 70%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Grupo de participantes después de la demostración de basquetbol en silla de
+                        ruedas</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Servicio/servicio2.jpg" alt="" style="width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI preparando la demostración de voleibol sentado</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Servicio/servicio5.jpeg" alt="" style="width: 90%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Presentación de los servicios que ofrecen ATEDI para los aspirantes de
+                        Servicio Social</p>
                 </div>
             </div>
         </div>
@@ -330,21 +338,23 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Tutorias/tutorias1.jpg" alt="" style="width: 60%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Prestadora de servicio dando asesoría a estudiantes de licenciatura</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Tutorias/tutorias2.jpg" alt="" style="width: 60%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI impartiendo una asesoría de matemática a alumna de
+                        bachillerato</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Tutorias/tutorias3.jpeg" alt="" style="width: 60%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI impartiendo una asesoría de español a alumno de
+                        bachillerato</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Tutorias/tutorias4.jpeg" alt="" style="width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Prestadora de servicio y estudiante planeado la siguiente asesoría</p>
                 </div>
             </div>
         </div>
@@ -538,29 +548,34 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Cursos/cursos1.jpeg" alt="" style="height: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI realizando interpretación en lengua de señas mexicanas a
+                        una alumna de universidad</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Cursos/cursos5.jpg" alt="" style="width: 90%; height: 70%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI impartiendo un taller de orientación y movilidad a alumnos
+                        de Arquitectura</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Cursos/cursos6.jpg" alt="" style="width: 80%; height: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Prestadores de servicio social con reconomiento por haber finalizado el
+                        taller de Braille junto con personal de ATEDI y directora de DACU</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Cursos/cursos3.jpg" alt="" style="width: 90%; height: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI impartiendo taller de Braille con ayuda de material
+                        adaptado a prestadoras de servicio social</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Cursos/cursos2.jpg" alt="" style="width: 90%; height: 100%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Presentación final de curso de lengua de señas</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Cursos/cursos4.jpeg" alt="" style="width: 90%; height: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Prestadores de servicio llevando a cabo el taller de orientación y movilidad
+                        en instalaciones de la UAQ</p>
                 </div>
 
             </div>
@@ -584,13 +599,15 @@
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Admision/admision1.jpg" alt="" style="width: 40%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Personal de ATEDI en la actividad de monitoreo dando discurso pra identificar
+                        personas con discapacidad en examen EXCOBA, se esta impartiendo en lengua de señas y oral</p>
                 </div>
             </div>
             <div class="small-images" style="display: flex; justify-content: space-around; margin-top: 10px;">
                 <div class="image-container">
                     <img src="img/Admision/admision2.jpg" alt="" style="width: 80%; border-radius: 8px;">
-                    <p class="description">Descripción de la imagen</p>
+                    <p class="description">Aspirantes en el examen EXCOBA escuchando el discurso del personal de ATEDI
+                        sobre el monitoreo</p>
                 </div>
                 <div class="image-container">
                     <img src="img/Admision/admision3.jpg" alt="" style="width: 80%; border-radius: 8px;">
