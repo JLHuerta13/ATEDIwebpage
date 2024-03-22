@@ -316,8 +316,8 @@
     /* Cambia el color al pasar el cursor por encima */
 }
 
-iframe{
+iframe {
     display: block;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }

@@ -216,6 +216,7 @@
                     Qro.</p>
                 <p>Teléfono: +52 442 192 1200 Ext. 3104</p>
                 <p>Correo Electrónico: admon.atedi@uaq.edu.mx</p>
+                <a href="html/login.html">Administradores</a>
             </div>
             <div class="footer-column">
                 <h3>Redes Sociales</h3>
